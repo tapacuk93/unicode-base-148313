@@ -6,9 +6,6 @@ Unicode characters, ordered from the simplest glyph to the most complex.
 The base is **148313**. One digit carries about 17.2 bits, so the 1000 digits in
 each file under `constants/` encode roughly 5200 decimal digits of the constant.
 
-The repository name still says 152308, the base before glyph rendering was made
-a requirement. The base is 148313.
-
 ## The digit set
 
 A character is a digit if all four hold:
