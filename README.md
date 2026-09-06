@@ -140,10 +140,10 @@ The top of the list is what you would expect of shared human vocabulary.
 | 5 | `r` | 226 | horse |
 | 6 | `t` | 223 | tree |
 
-Because the index is language-independent, the same sentence written in English,
-Spanish, French, German, Italian, Polish, Russian, Japanese, Chinese, Hebrew,
-Indonesian, Finnish or Greek encodes to the identical string. `examples.md`
-shows a four-concept sentence in every one of them.
+Because the index is language-independent, a sentence written in any of these
+languages encodes to the identical string. `examples.md` carries a four-concept
+sentence in the nine languages that have a word for every concept in it,
+including Russian, Japanese and Chinese.
 
 Rank also measures importance. A concept nearly every language names is common
 ground and carries little information. A concept few languages name is specific

@@ -23,7 +23,7 @@ The twelve most universal concepts, and the word each language uses for them.
 | c | 10 | 216 | Feb | feb | février | Февр. | 二月 | 2月 |
 | u | 11 | 212 | Denmark | Dinamarca | Danemark | Дания | デンマーク | 丹麦 |
 
-## The same sentence from ten languages
+## The same sentence from 9 languages
 
 A dog drinks water from the riverbed. Written in any of these languages, it
 encodes to the identical four characters, because the characters index
