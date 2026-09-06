@@ -59,109 +59,62 @@ back to a structural ranking:
 
 ## The first 100 digits of the index
 
-| Index | Code point | Character | Name |
-| ---: | --- | :---: | --- |
-| 0 | U+0030 | `0` | DIGIT ZERO |
-| 1 | U+0031 | `1` | DIGIT ONE |
-| 2 | U+0032 | `2` | DIGIT TWO |
-| 3 | U+0033 | `3` | DIGIT THREE |
-| 4 | U+0034 | `4` | DIGIT FOUR |
-| 5 | U+0035 | `5` | DIGIT FIVE |
-| 6 | U+0036 | `6` | DIGIT SIX |
-| 7 | U+0037 | `7` | DIGIT SEVEN |
-| 8 | U+0038 | `8` | DIGIT EIGHT |
-| 9 | U+0039 | `9` | DIGIT NINE |
-| 10 | U+0041 | `A` | LATIN CAPITAL LETTER A |
-| 11 | U+0042 | `B` | LATIN CAPITAL LETTER B |
-| 12 | U+0043 | `C` | LATIN CAPITAL LETTER C |
-| 13 | U+0044 | `D` | LATIN CAPITAL LETTER D |
-| 14 | U+0045 | `E` | LATIN CAPITAL LETTER E |
-| 15 | U+0046 | `F` | LATIN CAPITAL LETTER F |
-| 16 | U+0047 | `G` | LATIN CAPITAL LETTER G |
-| 17 | U+0048 | `H` | LATIN CAPITAL LETTER H |
-| 18 | U+0049 | `I` | LATIN CAPITAL LETTER I |
-| 19 | U+004A | `J` | LATIN CAPITAL LETTER J |
-| 20 | U+004B | `K` | LATIN CAPITAL LETTER K |
-| 21 | U+004C | `L` | LATIN CAPITAL LETTER L |
-| 22 | U+004D | `M` | LATIN CAPITAL LETTER M |
-| 23 | U+004E | `N` | LATIN CAPITAL LETTER N |
-| 24 | U+004F | `O` | LATIN CAPITAL LETTER O |
-| 25 | U+0050 | `P` | LATIN CAPITAL LETTER P |
-| 26 | U+0051 | `Q` | LATIN CAPITAL LETTER Q |
-| 27 | U+0052 | `R` | LATIN CAPITAL LETTER R |
-| 28 | U+0053 | `S` | LATIN CAPITAL LETTER S |
-| 29 | U+0054 | `T` | LATIN CAPITAL LETTER T |
-| 30 | U+0055 | `U` | LATIN CAPITAL LETTER U |
-| 31 | U+0056 | `V` | LATIN CAPITAL LETTER V |
-| 32 | U+0057 | `W` | LATIN CAPITAL LETTER W |
-| 33 | U+0058 | `X` | LATIN CAPITAL LETTER X |
-| 34 | U+0059 | `Y` | LATIN CAPITAL LETTER Y |
-| 35 | U+005A | `Z` | LATIN CAPITAL LETTER Z |
-| 36 | U+0061 | `a` | LATIN SMALL LETTER A |
-| 37 | U+0062 | `b` | LATIN SMALL LETTER B |
-| 38 | U+0063 | `c` | LATIN SMALL LETTER C |
-| 39 | U+0064 | `d` | LATIN SMALL LETTER D |
-| 40 | U+0065 | `e` | LATIN SMALL LETTER E |
-| 41 | U+0066 | `f` | LATIN SMALL LETTER F |
-| 42 | U+0067 | `g` | LATIN SMALL LETTER G |
-| 43 | U+0068 | `h` | LATIN SMALL LETTER H |
-| 44 | U+0069 | `i` | LATIN SMALL LETTER I |
-| 45 | U+006A | `j` | LATIN SMALL LETTER J |
-| 46 | U+006B | `k` | LATIN SMALL LETTER K |
-| 47 | U+006C | `l` | LATIN SMALL LETTER L |
-| 48 | U+006D | `m` | LATIN SMALL LETTER M |
-| 49 | U+006E | `n` | LATIN SMALL LETTER N |
-| 50 | U+006F | `o` | LATIN SMALL LETTER O |
-| 51 | U+0070 | `p` | LATIN SMALL LETTER P |
-| 52 | U+0071 | `q` | LATIN SMALL LETTER Q |
-| 53 | U+0072 | `r` | LATIN SMALL LETTER R |
-| 54 | U+0073 | `s` | LATIN SMALL LETTER S |
-| 55 | U+0074 | `t` | LATIN SMALL LETTER T |
-| 56 | U+0075 | `u` | LATIN SMALL LETTER U |
-| 57 | U+0076 | `v` | LATIN SMALL LETTER V |
-| 58 | U+0077 | `w` | LATIN SMALL LETTER W |
-| 59 | U+0078 | `x` | LATIN SMALL LETTER X |
-| 60 | U+0079 | `y` | LATIN SMALL LETTER Y |
-| 61 | U+007A | `z` | LATIN SMALL LETTER Z |
-| 62 | U+002C | `,` | COMMA |
-| 63 | U+002E | `.` | FULL STOP |
-| 64 | U+002D | `-` | HYPHEN-MINUS |
-| 65 | U+0028 | `(` | LEFT PARENTHESIS |
-| 66 | U+0029 | `)` | RIGHT PARENTHESIS |
-| 67 | U+002F | `/` | SOLIDUS |
-| 68 | U+003A | `:` | COLON |
-| 69 | U+0022 | `"` | QUOTATION MARK |
-| 70 | U+0027 | `'` | APOSTROPHE |
-| 71 | U+003D | `=` | EQUALS SIGN |
-| 72 | U+003B | `;` | SEMICOLON |
-| 73 | U+0021 | `!` | EXCLAMATION MARK |
-| 74 | U+003F | `?` | QUESTION MARK |
-| 75 | U+003E | `>` | GREATER-THAN SIGN |
-| 76 | U+005B | `[` | LEFT SQUARE BRACKET |
-| 77 | U+005D | `]` | RIGHT SQUARE BRACKET |
-| 78 | U+002B | `+` | PLUS SIGN |
-| 79 | U+0026 | `&` | AMPERSAND |
-| 80 | U+007C | `\|` | VERTICAL LINE |
-| 81 | U+005F | `_` | LOW LINE |
-| 82 | U+005C | `\` | REVERSE SOLIDUS |
-| 83 | U+002A | `*` | ASTERISK |
-| 84 | U+0025 | `%` | PERCENT SIGN |
-| 85 | U+007E | `~` | TILDE |
-| 86 | U+0023 | `#` | NUMBER SIGN |
-| 87 | U+0060 | ``` | GRAVE ACCENT |
-| 88 | U+007B | `{` | LEFT CURLY BRACKET |
-| 89 | U+007D | `}` | RIGHT CURLY BRACKET |
-| 90 | U+0024 | `$` | DOLLAR SIGN |
-| 91 | U+003C | `<` | LESS-THAN SIGN |
-| 92 | U+0040 | `@` | COMMERCIAL AT |
-| 93 | U+005E | `^` | CIRCUMFLEX ACCENT |
-| 94 | U+043E | `о` | CYRILLIC SMALL LETTER O |
-| 95 | U+0438 | `и` | CYRILLIC SMALL LETTER I |
-| 96 | U+0430 | `а` | CYRILLIC SMALL LETTER A |
-| 97 | U+0435 | `е` | CYRILLIC SMALL LETTER IE |
-| 98 | U+0627 | `ا` | ARABIC LETTER ALEF |
-| 99 | U+043D | `н` | CYRILLIC SMALL LETTER EN |
-The full index is in `unicode-digits.tsv`, one row per digit, same four columns.
+Read in two column pairs: 0-49 on the left, 50-99 on the right.
+
+| Index | Code point | Char | Name | Index | Code point | Char | Name |
+| ---: | --- | :---: | --- | ---: | --- | :---: | --- |
+| 0 | U+0030 | `0` | DIGIT ZERO | 50 | U+006F | `o` | LATIN SMALL LETTER O |
+| 1 | U+0031 | `1` | DIGIT ONE | 51 | U+0070 | `p` | LATIN SMALL LETTER P |
+| 2 | U+0032 | `2` | DIGIT TWO | 52 | U+0071 | `q` | LATIN SMALL LETTER Q |
+| 3 | U+0033 | `3` | DIGIT THREE | 53 | U+0072 | `r` | LATIN SMALL LETTER R |
+| 4 | U+0034 | `4` | DIGIT FOUR | 54 | U+0073 | `s` | LATIN SMALL LETTER S |
+| 5 | U+0035 | `5` | DIGIT FIVE | 55 | U+0074 | `t` | LATIN SMALL LETTER T |
+| 6 | U+0036 | `6` | DIGIT SIX | 56 | U+0075 | `u` | LATIN SMALL LETTER U |
+| 7 | U+0037 | `7` | DIGIT SEVEN | 57 | U+0076 | `v` | LATIN SMALL LETTER V |
+| 8 | U+0038 | `8` | DIGIT EIGHT | 58 | U+0077 | `w` | LATIN SMALL LETTER W |
+| 9 | U+0039 | `9` | DIGIT NINE | 59 | U+0078 | `x` | LATIN SMALL LETTER X |
+| 10 | U+0041 | `A` | LATIN CAPITAL LETTER A | 60 | U+0079 | `y` | LATIN SMALL LETTER Y |
+| 11 | U+0042 | `B` | LATIN CAPITAL LETTER B | 61 | U+007A | `z` | LATIN SMALL LETTER Z |
+| 12 | U+0043 | `C` | LATIN CAPITAL LETTER C | 62 | U+002C | `,` | COMMA |
+| 13 | U+0044 | `D` | LATIN CAPITAL LETTER D | 63 | U+002E | `.` | FULL STOP |
+| 14 | U+0045 | `E` | LATIN CAPITAL LETTER E | 64 | U+002D | `-` | HYPHEN-MINUS |
+| 15 | U+0046 | `F` | LATIN CAPITAL LETTER F | 65 | U+0028 | `(` | LEFT PARENTHESIS |
+| 16 | U+0047 | `G` | LATIN CAPITAL LETTER G | 66 | U+0029 | `)` | RIGHT PARENTHESIS |
+| 17 | U+0048 | `H` | LATIN CAPITAL LETTER H | 67 | U+002F | `/` | SOLIDUS |
+| 18 | U+0049 | `I` | LATIN CAPITAL LETTER I | 68 | U+003A | `:` | COLON |
+| 19 | U+004A | `J` | LATIN CAPITAL LETTER J | 69 | U+0022 | `"` | QUOTATION MARK |
+| 20 | U+004B | `K` | LATIN CAPITAL LETTER K | 70 | U+0027 | `'` | APOSTROPHE |
+| 21 | U+004C | `L` | LATIN CAPITAL LETTER L | 71 | U+003D | `=` | EQUALS SIGN |
+| 22 | U+004D | `M` | LATIN CAPITAL LETTER M | 72 | U+003B | `;` | SEMICOLON |
+| 23 | U+004E | `N` | LATIN CAPITAL LETTER N | 73 | U+0021 | `!` | EXCLAMATION MARK |
+| 24 | U+004F | `O` | LATIN CAPITAL LETTER O | 74 | U+003F | `?` | QUESTION MARK |
+| 25 | U+0050 | `P` | LATIN CAPITAL LETTER P | 75 | U+003E | `>` | GREATER-THAN SIGN |
+| 26 | U+0051 | `Q` | LATIN CAPITAL LETTER Q | 76 | U+005B | `[` | LEFT SQUARE BRACKET |
+| 27 | U+0052 | `R` | LATIN CAPITAL LETTER R | 77 | U+005D | `]` | RIGHT SQUARE BRACKET |
+| 28 | U+0053 | `S` | LATIN CAPITAL LETTER S | 78 | U+002B | `+` | PLUS SIGN |
+| 29 | U+0054 | `T` | LATIN CAPITAL LETTER T | 79 | U+0026 | `&` | AMPERSAND |
+| 30 | U+0055 | `U` | LATIN CAPITAL LETTER U | 80 | U+007C | `\|` | VERTICAL LINE |
+| 31 | U+0056 | `V` | LATIN CAPITAL LETTER V | 81 | U+005F | `_` | LOW LINE |
+| 32 | U+0057 | `W` | LATIN CAPITAL LETTER W | 82 | U+005C | `\` | REVERSE SOLIDUS |
+| 33 | U+0058 | `X` | LATIN CAPITAL LETTER X | 83 | U+002A | `*` | ASTERISK |
+| 34 | U+0059 | `Y` | LATIN CAPITAL LETTER Y | 84 | U+0025 | `%` | PERCENT SIGN |
+| 35 | U+005A | `Z` | LATIN CAPITAL LETTER Z | 85 | U+007E | `~` | TILDE |
+| 36 | U+0061 | `a` | LATIN SMALL LETTER A | 86 | U+0023 | `#` | NUMBER SIGN |
+| 37 | U+0062 | `b` | LATIN SMALL LETTER B | 87 | U+0060 | `` ` `` | GRAVE ACCENT |
+| 38 | U+0063 | `c` | LATIN SMALL LETTER C | 88 | U+007B | `{` | LEFT CURLY BRACKET |
+| 39 | U+0064 | `d` | LATIN SMALL LETTER D | 89 | U+007D | `}` | RIGHT CURLY BRACKET |
+| 40 | U+0065 | `e` | LATIN SMALL LETTER E | 90 | U+0024 | `$` | DOLLAR SIGN |
+| 41 | U+0066 | `f` | LATIN SMALL LETTER F | 91 | U+003C | `<` | LESS-THAN SIGN |
+| 42 | U+0067 | `g` | LATIN SMALL LETTER G | 92 | U+0040 | `@` | COMMERCIAL AT |
+| 43 | U+0068 | `h` | LATIN SMALL LETTER H | 93 | U+005E | `^` | CIRCUMFLEX ACCENT |
+| 44 | U+0069 | `i` | LATIN SMALL LETTER I | 94 | U+043E | `о` | CYRILLIC SMALL LETTER O |
+| 45 | U+006A | `j` | LATIN SMALL LETTER J | 95 | U+0438 | `и` | CYRILLIC SMALL LETTER I |
+| 46 | U+006B | `k` | LATIN SMALL LETTER K | 96 | U+0430 | `а` | CYRILLIC SMALL LETTER A |
+| 47 | U+006C | `l` | LATIN SMALL LETTER L | 97 | U+0435 | `е` | CYRILLIC SMALL LETTER IE |
+| 48 | U+006D | `m` | LATIN SMALL LETTER M | 98 | U+0627 | `ا` | ARABIC LETTER ALEF |
+| 49 | U+006E | `n` | LATIN SMALL LETTER N | 99 | U+043D | `н` | CYRILLIC SMALL LETTER EN |
+
+The full index is in `unicode-digits.tsv`, one row per digit, with the four columns unpaired.
 
 ## Files
 
